@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate superficies and perimeter of Circle</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let r= parseFloat(prompt("Enter the radius: "));
+        function superficiesOfCircle(){
+            let s= r*r*Math.PI;
+            alert("Superficies of Circle is: "+s);
+        }
+        function perimeterOfCircle(){
+            let p= 2*r*Math.PI;
+            alert("Perimeter of Circle is: "+p);
+        }
+        superficiesOfCircle();
+        perimeterOfCircle();
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Take min number</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function takeMinNumber(num1,num2,num3){
+            let array = [num1,num2,num3];
+            let min = array[0];
+            for(let i = 1;i<array.length;i++){
+                if(array[i]<min){
+                    min = array[i];
+                }
+            }
+            return min;
+        }
+        console.log(takeMinNumber(3,5,2));
+    </script>
+</body>
+</html>
